@@ -1,0 +1,38 @@
+form {
+    background-color: red;
+    padding: 20 pxc;
+    color: royalblue;
+    width: 600 px;
+}
+
+form input, form select {
+    display: block;
+}
+
+form label {
+    display: block;
+}
+
+form label[for='agreement'] {
+    display: inline;
+}
+
+form select:focus, form input[:focus], form textarea:focus {
+    width: 320;
+    background-color:#2b4a64;
+    color: #ffffff;
+    border: #2b4a64;
+
+
+
+
+form select:focus, form input:focus, form textarea:focus {
+    background-color: #213b50;
+    border: ;
+}
+
+form input[type='submit'] {
+    background-color: green;
+    color: honeydew;
+    text-transform: wp;
+}

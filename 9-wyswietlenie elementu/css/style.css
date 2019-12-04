@@ -1,0 +1,27 @@
+#p1 {
+    background-color: green;
+}
+#p2 {
+    background-color: skyblue;
+}
+#inline-elemnts p {
+    display: inline;
+    background-color: springgreen;
+    font-size: 18px;
+}
+#inline-p1 {
+    background-color: violet;
+}
+#inline-p2 {
+    background-color: blue;
+}
+#inline-block-elements li {
+    background-color: thistle;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    display: inline-block;
+}
+#display-none {
+    display: none;
+}

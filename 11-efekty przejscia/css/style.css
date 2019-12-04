@@ -1,0 +1,41 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; 
+}
+
+#colors {
+    transition: background-color 3 s linear 0.5s;
+    background-color:violet;
+
+
+}
+#colors:hover {
+    background-color: firebrick;
+}
+#box1 {
+    transition: width 1,5 s;
+    background-color: yellow;
+}
+#box1:hover {
+    width: 300px;
+
+}
+#box2 {
+    transition: height 1,5 s;
+    background-color: orangered;
+}
+#box2:hover {
+    height: 300px;
+
+}
+
+#box3 {
+    transition: width 1,5s, width 2s;
+    background-color: blue;
+}
+
+#box3:hover {
+    height: 100px;
+    width: 100px;
+}
